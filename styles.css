@@ -1,0 +1,191 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f8f4;
+    color: #2e4d2c;
+    padding-bottom: 60px; /* Ensure content doesn’t get covered */
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2e4d2c; /* Dark Green */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed; /* Footer stays fixed */
+    bottom: 0;
+}
+
+
+
+/* Form Styles */
+form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #4CAF50; /* Green border */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3e8e41; /* Darker Green */
+}
+
+/* Gallery Styles */
+.gallery-item {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #4CAF50; /* Green border */
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.gallery-item h3 {
+    margin: 0 0 10px;
+    color: #4CAF50; /* Green */
+}
+
+/* Polaroid-Style Gallery */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #4CAF50; /* Green border */
+    max-width: 200px; /* Same size for all images */
+    text-align: center;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%; /* Make images fill their container */
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-bottom: 5px solid #4CAF50; /* Green border for Polaroid effect */
+}
+
+.gallery-item h3 {
+    margin: 10px 0 5px;
+    color: #2e4d2c; /* Slightly darker green */
+    font-size: 1rem;
+}
+
+.gallery-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555; /* Subtle text color */
+}
+
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4CAF50; /* Green */
+    padding: 10px 20px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+/* Polaroid-Style Gallery */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #4CAF50; /* Green border */
+    max-width: 200px;
+    text-align: center;
+    margin: 0; /* Reset margins for side-by-side layout */
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%; /* Fit the container */
+    height: auto;
+    border-radius: 4px;
+    border-bottom: 5px solid #4CAF50; /* Green border for Polaroid effect */
+}
+
+.gallery-item h3 {
+    margin: 10px 0 5px;
+    color: #2e4d2c; /* Slightly darker green */
+    font-size: 1rem;
+}
+
+.gallery-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555; /* Subtle text color */
+}
+

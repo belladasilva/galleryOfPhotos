@@ -1,0 +1,3 @@
+// this is a file to log errors
+
+error_log("Error message here", 3, "errors/log.txt");
