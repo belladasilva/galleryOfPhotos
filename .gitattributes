@@ -1,0 +1,5 @@
+*.php linguist-detectable=true
+*.css linguist-detectable=false
+git add .gitattributes
+git commit -m "Update linguist settings for language detection"
+git push
