@@ -1,6 +1,8 @@
 # 📸 Gallery of Photos
 
-A **secure image upload and display** web application built using **PHP, MySQL, and JavaScript**. Users can **upload images**, store them in a **database**, and view them in a responsive gallery.
+A **secure image upload and display** web application built using **PHP, MySQL, and JavaScript**.  
+Users can **upload images**, store them in a **database**, and view them in a dynamic gallery.  
+This project focuses on **database optimization, security, and responsive design.**
 
 ---
 
@@ -9,21 +11,19 @@ A **secure image upload and display** web application built using **PHP, MySQL, 
 ✅ **Dynamic Image Display** – Fetches images from the database  
 ✅ **Optimized Database Queries** – Fast and efficient loading  
 ✅ **Server-Side Security** – Prevents malicious file uploads  
-✅ **Responsive Design** – Works on desktop and mobile  
 
 ---
 
 ## 🛠️ Tech Stack  
-🔹 **Frontend:** HTML, CSS, JavaScript  
+🔹 **Frontend:** HTML, CSS
 🔹 **Backend:** PHP, MySQL  
 🔹 **Server:** Apache (XAMPP, WAMP, or LAMP)  
 
 ---
 
 ## ⚡ Installation & Setup  
-
-### **1️⃣ Clone the Repository**  
 ```bash
+1️⃣ Clone the Repository
 git clone https://github.com/belladasilva/GalleryOfPhotos.git
 cd GalleryOfPhotos
 2️⃣ Start Your Local Server
@@ -37,10 +37,10 @@ Import the provided gallery.sql file
 Move the project folder to your web server (htdocs for XAMPP).
 Open a browser and go to:
 http://localhost/GalleryOfPhotos
+```
 🎥 Demo Video
 🔗 Watch the Demo (Coming Soon!)
 
-```md
 ## 📩 Contact
 For more about me, check out my **GitHub Profile README**:  
 🔗 [github.com/belladasilva](https://github.com/belladasilva)
