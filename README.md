@@ -1,6 +1,6 @@
 # 📸 Gallery of Photos
 
-A **secure image upload and display** web application built using **PHP, MySQL, and JavaScript**.  
+A **secure image upload and display** web application built using **PHP, MySQL, and CSS**.  
 Users can **upload images**, store them in a **database**, and view them in a dynamic gallery.  
 This project focuses on **database optimization, security, and responsive design.**
 
