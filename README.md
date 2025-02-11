@@ -15,30 +15,36 @@ This project focuses on **database optimization, security, and responsive design
 ---
 
 ## 🛠️ Tech Stack  
-🔹 **Frontend:** HTML, CSS
-🔹 **Backend:** PHP, MySQL  
-🔹 **Server:** Apache (XAMPP, WAMP, or LAMP)  
+- **Frontend:** HTML, CSS
+- **Backend:** PHP, MySQL  
+- **Server:** Apache (XAMPP, WAMP, or LAMP)  
 
 ---
 
 ## ⚡ Installation & Setup  
-```bash
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
+``` bash
 git clone https://github.com/belladasilva/GalleryOfPhotos.git
 cd GalleryOfPhotos
-2️⃣ Start Your Local Server
+```
+### 2️⃣ Start Your Local Server
+```
 Open XAMPP (or WAMP/LAMP)
 Start Apache and MySQL
-3️⃣ Set Up the Database
+```
+### 3️⃣ Set Up the Database
+```
 Open PHPMyAdmin (http://localhost/phpmyadmin)
 Create a new database: gallery_db
 Import the provided gallery.sql file
-4️⃣ Run the Application
+```
+### 4️⃣ Run the Application
+```
 Move the project folder to your web server (htdocs for XAMPP).
 Open a browser and go to:
 http://localhost/GalleryOfPhotos
 ```
-🎥 Demo Video
+## 🎥 Demo Video
 🔗 Watch the Demo (Coming Soon!)
 
 ## 📩 Contact
