@@ -5,12 +5,12 @@ body {
     padding: 0;
     background-color: #f3f8f4;
     color: #2e4d2c;
-    padding-bottom: 60px; /* Ensure content doesn’t get covered */
+    padding-bottom: 60px; /* this ensure content doesn’t get covered */
 }
 
 /* Header Styles */
 header {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     color: white;
     padding: 20px;
     text-align: center;
@@ -24,12 +24,12 @@ header h1 {
 
 /* Footer Styles */
 footer {
-    background-color: #2e4d2c; /* Dark Green */
+    background-color: #2e4d2c; 
     color: white;
     padding: 10px;
     text-align: center;
     width: 100%;
-    position: fixed; /* Footer stays fixed */
+    position: fixed; 
     bottom: 0;
 }
 
@@ -43,7 +43,7 @@ form {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    border: 1px solid #4CAF50; /* Green border */
+    border: 1px solid #4CAF50; 
 }
 
 form input, form textarea {
@@ -55,7 +55,7 @@ form input, form textarea {
 }
 
 form input[type="submit"] {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     color: white;
     border: none;
     cursor: pointer;
@@ -63,7 +63,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: #3e8e41; /* Darker Green */
+    background-color: #3e8e41; 
 }
 
 /* Gallery Styles */
@@ -74,7 +74,7 @@ form input[type="submit"]:hover {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    border: 1px solid #4CAF50; /* Green border */
+    border: 1px solid #4CAF50; 
 }
 
 .gallery-item img {
@@ -86,7 +86,7 @@ form input[type="submit"]:hover {
 
 .gallery-item h3 {
     margin: 0 0 10px;
-    color: #4CAF50; /* Green */
+    color: #4CAF50; 
 }
 
 /* Polaroid-Style Gallery */
@@ -102,8 +102,8 @@ form input[type="submit"]:hover {
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    border: 1px solid #4CAF50; /* Green border */
-    max-width: 200px; /* Same size for all images */
+    border: 1px solid #4CAF50; 
+    max-width: 200px; 
     text-align: center;
     margin: 0;
     position: relative;
@@ -119,14 +119,14 @@ form input[type="submit"]:hover {
 
 .gallery-item h3 {
     margin: 10px 0 5px;
-    color: #2e4d2c; /* Slightly darker green */
+    color: #2e4d2c;
     font-size: 1rem;
 }
 
 .gallery-item p {
     margin: 0;
     font-size: 0.9rem;
-    color: #555; /* Subtle text color */
+    color: #555; 
 }
 
 
@@ -138,7 +138,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #4CAF50; /* Green */
+    color: #4CAF50; 
     padding: 10px 20px;
     border: 1px solid #4CAF50;
     border-radius: 4px;
@@ -146,7 +146,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     color: white;
 }
 
@@ -163,8 +163,7 @@ nav a:hover {
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    border: 1px solid #4CAF50; /* Green border */
-    max-width: 200px;
+    border: 1px solid #4CAF50; 
     text-align: center;
     margin: 0; /* Reset margins for side-by-side layout */
     position: relative;
@@ -179,13 +178,13 @@ nav a:hover {
 
 .gallery-item h3 {
     margin: 10px 0 5px;
-    color: #2e4d2c; /* Slightly darker green */
+    color: #2e4d2c; 
     font-size: 1rem;
 }
 
 .gallery-item p {
     margin: 0;
     font-size: 0.9rem;
-    color: #555; /* Subtle text color */
+    color: #555; 
 }
 
